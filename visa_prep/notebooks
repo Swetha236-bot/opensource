@@ -1,0 +1,4 @@
+N=int(input())
+pages=N*1000
+books=int(pages/100)
+print(books)
