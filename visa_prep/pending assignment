@@ -1,0 +1,7 @@
+x,y,z=map(int,input().split())
+minutes=x*y
+daystime=z*24*60
+if minutes<=daystime:
+    print("YES")
+else:
+    print("NO")
