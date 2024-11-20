@@ -1,0 +1,7 @@
+test=int(input())
+for i in range(test):
+    time=int(input())
+    if time>=30:
+        print("YES")
+    else:
+        print("NO")
