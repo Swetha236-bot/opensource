@@ -1,0 +1,7 @@
+def digit_sum_game(n):
+    return "Vignesh" if sum(int(digit) for digit in str(n)) % 2 == 0 else "Charan"
+
+
+number = int(input())
+print(digit_sum_game(number))
+
